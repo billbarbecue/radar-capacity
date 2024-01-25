@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/jquery.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/jquery-ui.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/ResizeSensor.js"></script>
+
+            <link rel="stylesheet"  href="https://assets.pyecharts.org/assets/v5/jquery-ui.css">
+
+</head>
+<body >
+    <style>.box {  } </style>
+        
+    <div class="box">
+                <div id="3edbd95085bf4182adf6f64fb2f31279" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_3edbd95085bf4182adf6f64fb2f31279 = echarts.init(
+            document.getElementById('3edbd95085bf4182adf6f64fb2f31279'), 'white', {renderer: 'canvas'});
+        var option_3edbd95085bf4182adf6f64fb2f31279 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "radar",
+            "name": "\u603b\u89c8",
+            "data": [
+                [
+                    50,
+                    50,
+                    50,
+                    50,
+                    50,
+                    50,
+                    50,
+                    50
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#87CEEB"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.2
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "\u5b9e\u9645\u60c5\u51b5",
+            "data": [
+                [
+                    32,
+                    42,
+                    46,
+                    46,
+                    46,
+                    44,
+                    48,
+                    54
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#E3170D"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.2
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u603b\u89c8",
+                "\u5b9e\u9645\u60c5\u51b5"
+            ],
+            "selected": {},
+            "selectedMode": "multiple",
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "radar": [
+        {
+            "indicator": [
+                {
+                    "name": "\u6807\u51c6\u7a0b\u5e8f/\u5c97\u4f4dSOP",
+                    "max": 55
+                },
+                {
+                    "name": "\u673a\u578b\u548c\u6027\u80fd",
+                    "max": 55
+                },
+                {
+                    "name": "\u60c5\u62a5",
+                    "max": 55
+                },
+                {
+                    "name": "\u8fd0\u884c\u6807\u51c6",
+                    "max": 55
+                },
+                {
+                    "name": "\u7b7e\u6d3e\u653e\u884c",
+                    "max": 55
+                },
+                {
+                    "name": "\u6c14\u8c61",
+                    "max": 55
+                },
+                {
+                    "name": "\u5176\u4ed6\u77e5\u8bc6",
+                    "max": 55
+                },
+                {
+                    "name": "AOC\u7ee9\u6548",
+                    "max": 55
+                }
+            ],
+            "startAngle": 90,
+            "name": {
+                "textStyle": {}
+            },
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "splitArea": {
+                "show": true,
+                "areaStyle": {
+                    "opacity": 0
+                }
+            },
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0
+            }
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "\u4eba\u5458\u80fd\u529b\u753b\u50cf\u2014\u2014\u2014\u9093\u6bc5",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_3edbd95085bf4182adf6f64fb2f31279.setOption(option_3edbd95085bf4182adf6f64fb2f31279);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="6a2b048b3b314e56be55158bea89f258" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > 人员能力分析</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>能力维度</th>
+            <th>行为记录</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>标准程序/岗位SOP</td>
+            <td>1.大面积航班延误响应等级中，黄色预警为公司整体航班延误2小时以上且无法确定起飞时间的航班比例达到25%，或者预计当日取消和延误时间超过4 小时的航班数量达到15%且航班数达到8班以上。<br>2.在与机组协商决策油量时，应确保飞机达到合适备降机场时的落地剩油不低于2000KG。<br>3.接到应急类事件信息未及时申请启动公司应急程序或未按要求通报信息，导致公司应急处置工作被动。属于人为原因责任事件。<br>4.酒测时由他人代测的，处罚政策为责任人取消岗位资格并脱岗培训6个月。<br>5.以下延误代码为天气原因导致顺延第二段的是AW。<br>6.通常应用于现代运输机机翼前缘防冰的方法是热空气防/除冰。<br>7.延误时间不定，且旅客登机或关舱的航班，计划控制席根据此航班预计起飞时间及时发布后续航班的延误通知，发布时间最迟不晚于后续衔接航班计划起飞前40分钟。<br>8.关于本场训练、试飞、调机的载重平衡工作流程描述正确的是）签派放行席根据非标准配餐和非标准机组修正表（本场训练、试飞）修正DOW和 DOI。<br>9. 飞机单发飘降的时候，一发停车后其余发动机不能保持最大巡航推力。</td>
+        </tr>
+        <tr>
+            <td>机型和性能</td>
+            <td>1.在结构限制最大起飞重量、开引气、防冰关、TOGA、基本重心、CONF 2、海平面、标准大气、ISA+10、水平干跑道、V1/VR=1、V2/VS=1.23、静风条件下，A320-232S 起飞距离最长。<br>2.起飞：构型选择，根据我司目前规定，结合机场起飞的飞机性能表格，我司选择Conf 2构型。 <br>3.A320系列飞机的非增压区域为雷达、空调组件、起落架舱、尾椎。<br>4.飞机起飞时配平不当对飞行安全的影响描述正确的是过晚抬机头，如果起飞受场长限重，有可能导致冲出跑道；过晚抬机头如果控制障碍物距离跑道较远会完成越障。<br></td>
+        </tr>
+        <tr>
+            <td>情报</td>
+            <td>1.机场图包括哪些运行信息：从航空器停机位到跑道、机场平面、道面标志、跑道滑行道灯光 、观测跑道视程仪位置等 、从跑道到航空器停机位等信息。<br>2.机场标高是机场着陆区最高点的标高。</td>
+        </tr>
+        <tr>
+            <td>运行标准</td>
+            <td>1.公司特殊机场在运行规范C0003章节。<br>2.运行规范的C0007章节批准了公司可执行的仪表进近程序。2.RNP AR我司前期大连试运行阶段获得过批准，随着长时间不飞的情况，目前已从运行规范进行了移除。CAT II(COO21)RNPAPCH(C0045)已获得批准，RNP AR（C0060）、终端区目视进近(C0053)、目视能见进近(C0051)、目视盘旋进近(C0049)目前运行规范章节无此内容。</td>
+        </tr>
+        <tr>
+            <td>签派放行</td>
+            <td>1.公司对于一些运行的机场的特殊规定在《签派控制中心工作手册》3.10.11 特殊机场签派放行标准有针对攀枝花、西双版纳、丽江、百色的特殊放行要求。<br>2.制作了起飞一发失效程序的机场有恩施、西双版纳、梅州、大连，可在新运行网和EFB上进行查询。</td>
+        </tr>
+        <tr>
+            <td>气象</td>
+            <td>1.Jeppesen飞行计划中的MXSH值是指巡航高度上下各2000英尺处的风速来计算每千英。<br>2.雷暴的生成，一般需要a不稳定的大气层结，b充足的抬升力，c充沛的水汽来源。<br>3.相对地面低压和锋面而言，急流常常位于地面锋线的北面。</td>
+        </tr>
+        <tr>
+            <td>其他知识</td>
+            <td>1.“4D15”中的4D指的是经度、纬度、高度、时刻，没有速度。</td>
+        </tr>
+        <tr>
+            <td>AOC绩效</td>
+            <td>1.GT1060厦门-玉林，计划控制席沟通厦门管制CDM时间提前，航班正常，减少1班延误。<br>2.发挥主管能动性，积极协调玉林管制给予直飞及落地发报正常，节约公司运行成本，提高运行品质</td>
+        </tr>
+        <tr>
+            <td>整改措施</td>
+            <td>1.发布错题，当面指正；<br>2.给教员发布相关课程错题，修订课件或调整授课重点分布；<br>3.资质管理时重点考查错题版块；<br>4.应用错题检查单做效果检查</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>    </div>
+    <script>
+            $('#3edbd95085bf4182adf6f64fb2f31279').css('border-style', 'dashed').css('border-width', '0px');$("#3edbd95085bf4182adf6f64fb2f31279>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#3edbd95085bf4182adf6f64fb2f31279'), function() { chart_3edbd95085bf4182adf6f64fb2f31279.resize()});
+            $('#6a2b048b3b314e56be55158bea89f258').css('border-style', 'dashed').css('border-width', '0px');$("#6a2b048b3b314e56be55158bea89f258>div:nth-child(1)").width("100%").height("100%");
+            var charts_id = ['3edbd95085bf4182adf6f64fb2f31279','6a2b048b3b314e56be55158bea89f258'];
+function downloadCfg () {
+    const fileName = 'chart_config.json'
+    let downLink = document.createElement('a')
+    downLink.download = fileName
+
+    let result = []
+    for(let i=0; i<charts_id.length; i++) {
+        chart = $('#'+charts_id[i])
+        result.push({
+            cid: charts_id[i],
+            width: chart.css("width"),
+            height: chart.css("height"),
+            top: chart.offset().top + "px",
+            left: chart.offset().left + "px"
+        })
+    }
+
+    let blob = new Blob([JSON.stringify(result)])
+    downLink.href = URL.createObjectURL(blob)
+    document.body.appendChild(downLink)
+    downLink.click()
+    document.body.removeChild(downLink)
+}
+    </script>
+</body>
+</html>

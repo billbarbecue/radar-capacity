@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/jquery.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/jquery-ui.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/ResizeSensor.js"></script>
+
+            <link rel="stylesheet"  href="https://assets.pyecharts.org/assets/v5/jquery-ui.css">
+
+</head>
+<body >
+    <style>.box {  } </style>
+        
+    <div class="box">
+                <div id="a030eaba3398469089fc2765de609390" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_a030eaba3398469089fc2765de609390 = echarts.init(
+            document.getElementById('a030eaba3398469089fc2765de609390'), 'white', {renderer: 'canvas'});
+        var option_a030eaba3398469089fc2765de609390 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "radar",
+            "name": "\u603b\u89c8",
+            "data": [
+                [
+                    50,
+                    50,
+                    50,
+                    50,
+                    50,
+                    50,
+                    50,
+                    50
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#87CEEB"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.2
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "\u5b9e\u9645\u60c5\u51b5",
+            "data": [
+                [
+                    38,
+                    50,
+                    50,
+                    50,
+                    50,
+                    50,
+                    50,
+                    52
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#E3170D"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.2
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u603b\u89c8",
+                "\u5b9e\u9645\u60c5\u51b5"
+            ],
+            "selected": {},
+            "selectedMode": "multiple",
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "radar": [
+        {
+            "indicator": [
+                {
+                    "name": "\u6807\u51c6\u7a0b\u5e8f/\u5c97\u4f4dSOP",
+                    "max": 55
+                },
+                {
+                    "name": "\u673a\u578b\u548c\u6027\u80fd",
+                    "max": 55
+                },
+                {
+                    "name": "\u60c5\u62a5",
+                    "max": 55
+                },
+                {
+                    "name": "\u8fd0\u884c\u6807\u51c6",
+                    "max": 55
+                },
+                {
+                    "name": "\u7b7e\u6d3e\u653e\u884c",
+                    "max": 55
+                },
+                {
+                    "name": "\u6c14\u8c61",
+                    "max": 55
+                },
+                {
+                    "name": "\u5176\u4ed6\u77e5\u8bc6",
+                    "max": 55
+                },
+                {
+                    "name": "AOC\u7ee9\u6548",
+                    "max": 55
+                }
+            ],
+            "startAngle": 90,
+            "name": {
+                "textStyle": {}
+            },
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "splitArea": {
+                "show": true,
+                "areaStyle": {
+                    "opacity": 0
+                }
+            },
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0
+            }
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "\u4eba\u5458\u80fd\u529b\u753b\u50cf\u2014\u2014\u2014\u66fe\u957f\u70bc",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_a030eaba3398469089fc2765de609390.setOption(option_a030eaba3398469089fc2765de609390);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="3caef2ec5f84449682cb33e9fc00ca97" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > 人员能力分析</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>能力维度</th>
+            <th>行为记录</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>标准程序/岗位SOP</td>
+            <td>1.在与机组协商决策油量时，应确保飞机达到合适备降机场时的落地剩油不低于2000KG。2.当公司发生紧急事件时，当事人必须在第一时间将该事件向首席值班员进行汇报；得知情况后，立即向公司应急经理请示是否启动应急响应。3.酒测时由他人代测的，处罚政策为责任人取消岗位资格并脱岗培训6个月。 <br>5.关于我公司运行政策，以下说法正确的是，昼间大雨及以上、夜间中雨及以上的情况下航空器不得落地。<br>6.延误时间不定，且旅客登机或关舱的航班，计划控制席根据此航班预计起飞时间及时发布后续航班的延误通知，发布时间最迟不晚于后续衔接航班计划起飞前40分钟。</td>
+        </tr>
+        <tr>
+            <td>机型和性能</td>
+            <td>无</td>
+        </tr>
+        <tr>
+            <td>情报</td>
+            <td>无</td>
+        </tr>
+        <tr>
+            <td>运行标准</td>
+            <td>无</td>
+        </tr>
+        <tr>
+            <td>签派放行</td>
+            <td>无</td>
+        </tr>
+        <tr>
+            <td>气象</td>
+            <td>无</td>
+        </tr>
+        <tr>
+            <td>其他知识</td>
+            <td>无</td>
+        </tr>
+        <tr>
+            <td>AOC绩效</td>
+            <td>值班员曾长炼积极协调南宁区调，海口-北海航班3小时限制解除</td>
+        </tr>
+        <tr>
+            <td>整改措施</td>
+            <td>1.发布错题，当面指正；<br>2.给教员发布相关课程错题，修订课件或调整授课重点分布；<br>3.资质管理时重点考查错题版块；<br>4.应用错题检查单做效果检查</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>    </div>
+    <script>
+            $('#a030eaba3398469089fc2765de609390').css('border-style', 'dashed').css('border-width', '0px');$("#a030eaba3398469089fc2765de609390>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#a030eaba3398469089fc2765de609390'), function() { chart_a030eaba3398469089fc2765de609390.resize()});
+            $('#3caef2ec5f84449682cb33e9fc00ca97').css('border-style', 'dashed').css('border-width', '0px');$("#3caef2ec5f84449682cb33e9fc00ca97>div:nth-child(1)").width("100%").height("100%");
+            var charts_id = ['a030eaba3398469089fc2765de609390','3caef2ec5f84449682cb33e9fc00ca97'];
+function downloadCfg () {
+    const fileName = 'chart_config.json'
+    let downLink = document.createElement('a')
+    downLink.download = fileName
+
+    let result = []
+    for(let i=0; i<charts_id.length; i++) {
+        chart = $('#'+charts_id[i])
+        result.push({
+            cid: charts_id[i],
+            width: chart.css("width"),
+            height: chart.css("height"),
+            top: chart.offset().top + "px",
+            left: chart.offset().left + "px"
+        })
+    }
+
+    let blob = new Blob([JSON.stringify(result)])
+    downLink.href = URL.createObjectURL(blob)
+    document.body.appendChild(downLink)
+    downLink.click()
+    document.body.removeChild(downLink)
+}
+    </script>
+</body>
+</html>
